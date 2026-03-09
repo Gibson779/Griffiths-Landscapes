@@ -1,4 +1,4 @@
-export default function gallery(){
+export default function Gallery(){
     return(
         <h1>Hello World</h1>
     )

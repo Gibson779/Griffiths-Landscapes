@@ -13,7 +13,7 @@ export default function Navbar() {
       <div className="navbar__container">
         {/* Logo / Brand */}
         <Link to="/" className="navbar__logo" onClick={closeMenu}>
-          Griffiths Landscapes
+          <img  src="/images/image.jpg" alt="" />
         </Link>
 
         {/* Navigation Links */}
@@ -21,7 +21,7 @@ export default function Navbar() {
           <Link to="/" onClick={closeMenu}>Home</Link>
           <Link to="/services" onClick={closeMenu}>Services</Link>
            <Link to="/gallery" onClick={closeMenu}>Gallery</Link>
-           <Link to="/reviews" onClick={closeMenu}>Reveiws</Link>
+           <Link to="/reviews" onClick={closeMenu}>Reviews</Link>
             <Link to="/about" onClick={closeMenu}>About</Link>
              <Link to="/contact" onClick={closeMenu}>Contact</Link>
         </nav>
