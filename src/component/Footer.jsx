@@ -1,6 +1,24 @@
 
 export default function Footer() {
   return (
+    <>
+
+    <div className="footer__content">
+    <div className="footer__info">
+      <img className="footer__image" src="./images/image.png" alt="" />
+      <h2 className="foot__number"> CALL 07475767732</h2>
+      <h1 className="footer__menu">Menu</h1>
+      <ul>
+        <li>Home</li>
+        <li>Services</li>
+        <li>Gallery</li>
+        <li>Reviews</li>
+        <li>About</li>
+        <li>Contact</li>
+      </ul>
+
+    </div>
+    </div>
     
 
     <footer className="footer">
@@ -11,5 +29,7 @@ export default function Footer() {
         </p>
       </div>
     </footer>
+
+    </>
   );
 }
