@@ -337,3 +337,34 @@ html, body {
     font-size: 55px;
   }
 }
+
+
+.about__container{
+  display: flex;
+  align-items: center;   /* vertical alignment */
+  justify-content: space-between;
+  gap: 20px; 
+  flex-direction: row-reverse;
+
+
+
+}
+
+.about__image{
+  max-width: 50%;
+  max-height: 50%;
+  padding: 40px;
+  border-radius: 0.5rem;
+
+
+}
+.about__header{
+
+}
+
+.about__text{
+
+  padding: 20px;
+
+
+}
