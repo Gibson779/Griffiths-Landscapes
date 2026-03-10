@@ -334,6 +334,13 @@ html, body {
 
 }
 
+.footer__info{
+  display: flex;
+  flex-direction: row;
+
+
+}
+
 .home__image-wrap{
   position: relative;
   
