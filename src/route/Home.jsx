@@ -1,5 +1,3 @@
-
-
 export default function Home(){
     return(
         <>
@@ -15,6 +13,10 @@ export default function Home(){
         Transform your outdoor space with trusted paving and landscaping solutions from a skilled local team in Greater Manchester. 
         We bring over a decade of experience to every job, offering high-quality finishes that improve the look and function of your home. 
        </p>
+       <div className="home__call">
+        <h1 className="call">Call us 078586848338</h1>
+       </div>
+
        
 
 
@@ -35,12 +37,27 @@ export default function Home(){
         </div>
 
         <img src="./gallery/1.jpg" alt="About" className="about__image" />
-
        </div>
        </section>
 
+       <section className="getintouch">
+
+       <div className="get__intouch">
+       <h1 className="get__intouch-text">Get In Touch</h1>
+
+       <p className="get__intouch-para"> Whether you need a new driveway, garden upgrade or expert advice, we’re here to help. 
+                                         Reach out now for a free quote or to chat with our friendly team.
+       </p>
+
+       <img src="../images/garden2.jpg" alt="GetinTouch" className="get__intouch-img" />
+
+       </div>
+
+       </section>
+       
 
 
+       
 
         </>
     )
