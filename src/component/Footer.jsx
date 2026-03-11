@@ -5,8 +5,11 @@ export default function Footer() {
 
     <div className="footer__content">
     <div className="footer__info">
+
       <img className="footer__image" src="./images/image.png" alt="" />
       <h2 className="foot__number"> CALL 07475767732</h2>
+</div>
+      <div className="footer__list">
       <h1 className="footer__menu">Menu</h1>
       <ul>
         <li>Home</li>
@@ -16,9 +19,11 @@ export default function Footer() {
         <li>About</li>
         <li>Contact</li>
       </ul>
+      </div>
+      
 
     </div>
-    </div>
+    
     
 
     <footer className="footer">

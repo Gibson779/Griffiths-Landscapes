@@ -154,36 +154,6 @@ html, body {
   margin-top: 4rem;
 }
 
-/* ==========================
-   FOOTER CONTAINER
-========================== */
-
-.footer__image{
-  width: 100px;
-  height: 100px;
-  padding: 10px;
-
-}
-
-
-.footer__container {
-  background-color: white;
-  color: #000000;
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 1.5rem;
-  text-align: center;
-}
-
-/* ==========================
-   TEXT
-========================== */
-
-.footer__copyright {
-  font-size: 0.9rem;
-  opacity: 0.85;
-}
-
 
 /* ----------------------------------
    BASE GALLERY GRID
@@ -323,6 +293,64 @@ html, body {
 }
 
 
+/* ==========================
+   FOOTER CONTAINER
+========================== */
+
+.footer__content{
+  display: flex;
+  justify-content: space-evenly;
+  
+
+  padding-top: 60px;
+  
+}
+
+.footer__info{
+  
+  
+}
+
+.footer__list{
+  
+}
+
+ul{
+  list-style: none;
+}
+
+.footer__menu{
+  font-size: 25px;
+  padding-left: 20px;
+}
+
+.footer__image{
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+
+}
+
+.footer__container {
+  background-color: white;
+  color: #000000;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+/* ==========================
+   TEXT
+========================== */
+
+.footer__copyright {
+  font-size: 0.9rem;
+  opacity: 0.85;
+}
+
+
+
 /* ----------------------------------
    Home Page
 ---------------------------------- */
@@ -331,13 +359,6 @@ html, body {
 .home__container{
   display: flex;
   justify-content: center;
-
-}
-
-.footer__info{
-  display: flex;
-  flex-direction: row;
-
 
 }
 
@@ -357,6 +378,7 @@ html, body {
   position: absolute;
   bottom: 30px;
   left: 30px;
+  right: 30px;  
   background: rgba(0,0,0,0.6);
   color: white;
   padding: 20px;
@@ -365,15 +387,13 @@ html, body {
 
 }
 
-
-
-
 @media (max-width: 768px) {
 
   .home__image {
      max-width: 100%;
-    
   }
+
+
 
 
 }
@@ -398,7 +418,7 @@ html, body {
 
 .about__text {
   flex: 1;
-  padding-right: 100px;
+  
 }
 
 .about__header {
@@ -433,6 +453,7 @@ html, body {
   .about__text p {
     font-size: 16px;
     line-height: 1.6;
+    
   }
 
 }
