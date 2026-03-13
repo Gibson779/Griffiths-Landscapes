@@ -40,25 +40,27 @@ export default function Home(){
        </div>
        </section>
 
-       <section className="getintouch">
+      <section className="getintouch">
+        <div className="get__intouch">
 
-       <div className="get__intouch">
-       <h1 className="get__intouch-text">Get In Touch</h1>
+    <img
+      src="../images/garden4.JPG"
+      alt="GetinTouch"
+      className="get__intouch-img"
+    />
 
-       <p className="get__intouch-para"> Whether you need a new driveway, garden upgrade or expert advice, we’re here to help. 
-                                         Reach out now for a free quote or to chat with our friendly team.
-       </p>
+    <div className="get__intouch-overlay">
+      <h1 className="get__intouch-text">Get In Touch</h1>
 
-       <img src="../images/garden2.jpg" alt="GetinTouch" className="get__intouch-img" />
+      <p className="get__intouch-para">
+        Whether you need a new driveway, garden upgrade or expert advice,
+        we’re here to help. Reach out now for a free quote or to chat with
+        our friendly team.
+      </p>
+    </div>
 
-       </div>
-
-       </section>
-       
-
-
-       
-
+  </div>
+</section>
         </>
     )
 }

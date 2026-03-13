@@ -309,6 +309,10 @@ ul li {
   margin-bottom: 8px; /* space between items */
 }
 
+.footer__list1{
+  padding-right: 80px;
+}
+
 .footer__menu{
   font-size: 25px;
   text-align: left; 
@@ -462,9 +466,35 @@ ul li {
   border-radius: 10px;
 }
 
+.get__intouch {
+  position: relative;
+}
+
+
 .get__intouch-img{
   width: 100%;
-  height: 500px;
+  height: 600px;
+  display: block;
+  object-fit: cover;
+  
+}
+
+.get__intouch-overlay {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  background: rgba(0,0,0,0.6);
+}
+
+.get__intouch-text {
+  font-size: 3rem;
+}
+
+.get__intouch-para {
+  max-width: 600px;
 }
 
 

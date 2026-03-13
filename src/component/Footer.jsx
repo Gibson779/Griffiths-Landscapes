@@ -11,7 +11,7 @@ export default function Footer() {
     </div>
 
       
-      <div className="footer__list">
+      <div className="footer__list1">
       <h1 className="footer__menu">Menu</h1>
       <ul>
         <li>Home</li>
