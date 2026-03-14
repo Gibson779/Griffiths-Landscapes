@@ -21,7 +21,7 @@ export default function Navbar() {
           <Link to="/" onClick={closeMenu}>Home</Link>
           <Link to="/services" onClick={closeMenu}>Services</Link>
            <Link to="/gallery" onClick={closeMenu}>Gallery</Link>
-            <Link to="/about" onClick={closeMenu}>About</Link>
+            
              <Link to="/contact" onClick={closeMenu}>Contact</Link>
         </nav>
 
