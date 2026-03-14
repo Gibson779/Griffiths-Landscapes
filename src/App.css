@@ -316,8 +316,12 @@ ul li {
 }
 
 .footer__list1{
-  padding-right: 80px;
+  padding-right: 100px;
   
+}
+
+.footer__list{
+  padding-right: 20px;
 }
 
 .footer__menu{
@@ -333,6 +337,11 @@ ul li {
 .footer__image{
   width: 150px;
   height: 150px;
+  
+}
+
+.footer__number{
+  font-size: 20px;
   
 }
 
@@ -595,4 +604,51 @@ ul li {
   align-items: center;
   text-align: center;
   flex-direction: column;
+}
+
+
+/* ----------------------------------
+   Contact Page
+---------------------------------- */
+
+.service__items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;   
+  gap: 2rem;                 
+  min-height: 50vh;   
+  max-width: 1200px;         
+  margin: 0 auto;    
+      
+}
+
+
+.service__cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;       /* center content inside */
+  text-align: center;
+  max-width: 300px;
+  padding: 1.4rem;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.service__header{
+  text-align: center;
+  color: #47693b;
+  
+}
+
+.services__image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.service__cards :hover{
+  transform: translateY(-6px);
+  
 }

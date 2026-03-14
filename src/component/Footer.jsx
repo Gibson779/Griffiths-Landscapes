@@ -7,7 +7,13 @@ export default function Footer() {
 
     <div className="footer__info">
       <img className="footer__image" src="./images/image.png" alt="" />
-      <h2 className="footer__number"> CALL 07475767732</h2>
+      <p className="footer__number"> CALL 07475767732</p>
+      <ul>
+        <li>Open Hours</li>
+        <li>Mon - Fri 09:00 - 18:00</li>
+        <li>Saturday 09:00 - 15:00</li>
+        <li>Sunday - Closed</li>
+      </ul>
     </div>
 
       
