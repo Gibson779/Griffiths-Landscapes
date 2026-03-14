@@ -8,7 +8,7 @@ import Gallery from "./route/Gallery";
 import Reviews from "./route/Reviews";
 import Contact from "./route/Contact";
 import Home from "./route/Home";
-import About from "./route/About";
+
 
 
 
@@ -22,7 +22,6 @@ function App() {
       <Route path= "/" element= {<Home/>}/>
       <Route path= "/services" element={<Services />} />
       <Route path= "/contact" element={<Contact />} />
-      <Route path= "/about" element={<About />} />
       <Route path= "/reviews" element={<Reviews />} />
       <Route path= "/gallery" element={<Gallery />} />
       </Routes>
