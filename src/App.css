@@ -291,26 +291,33 @@ html, body {
   display: flex;
   justify-content: space-evenly;
   margin: 0%;
-  padding-top: 10%;
+  padding: 5%;
+  
 }
 
 .footer__info{
   padding-top: 5px;
+  
 }
 
 ul{
   list-style: none;
   text-align: left; 
   padding: 0;         /* removes default indent */
-  margin: 0
+  margin: 0;
+  
+  
 }
 
 ul li {
   margin-bottom: 8px; /* space between items */
+  color: black;
+ 
 }
 
 .footer__list1{
   padding-right: 80px;
+  
 }
 
 .footer__menu{
@@ -319,7 +326,7 @@ ul li {
   padding: 0;         /* removes default indent */
   margin: 0;
   padding-bottom: 20px;
-
+  
 }
 
 
@@ -486,7 +493,7 @@ ul li {
   transform: translate(-50%, -50%);
   text-align: center;
   color: white;
-  background: rgba(0,0,0,0.6);
+  background:rgba(71, 114, 71, 0.622);
 }
 
 .get__intouch-text {
@@ -495,6 +502,32 @@ ul li {
 
 .get__intouch-para {
   max-width: 600px;
+}
+
+
+/* button container */
+.button__home {
+  position: absolute;
+  bottom: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 20px;
+}
+
+/* buttons */
+.button__home button {
+  padding: 12px 22px;
+  border: none;
+  background:rgba(71, 114, 71, 0.622);
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.button__home button:hover {
+  background: #1b5e20;
 }
 
 
@@ -553,8 +586,13 @@ ul li {
   }
 }
 
-
-
 /* ----------------------------------
-   About Page
+   Contact Page
 ---------------------------------- */
+
+.contact__container{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}

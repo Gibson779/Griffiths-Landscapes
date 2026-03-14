@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 export default function Home(){
     return(
         <>
@@ -16,10 +17,6 @@ export default function Home(){
        <div className="home__call">
         <h1 className="call">Call us 078586848338</h1>
        </div>
-
-       
-
-
        </div>
        </div>
        </div>
@@ -57,6 +54,18 @@ export default function Home(){
         we’re here to help. Reach out now for a free quote or to chat with
         our friendly team.
       </p>
+    </div>
+
+    <div className="button__home">
+        <Link to="/contact">
+        <button>Call us</button>
+        </Link>
+        <Link to="/contact">
+        <button>Email</button>
+        </Link>
+        <Link to="/contact">
+        <button>Free Quote</button>
+        </Link>
     </div>
 
   </div>
