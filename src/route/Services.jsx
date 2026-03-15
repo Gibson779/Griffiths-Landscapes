@@ -10,9 +10,8 @@ export default function Services() {
       <section className="service__container">
         <h1 className="service__header">Our Services</h1>
         <p className="services__text">
-          We offer an extensive range of services, from installation and upgrades to maintenance and emergency repairs. Safety is our number one priority. 
-          We work safely and strive to create a safe environment for every client. 
-          We never cut corners or take shortcuts. Your satisfaction is our only priority.
+          We offer a wide range of landscaping and construction services, including patios, decking, driveways, garden transformations and general outdoor improvements. Every project is carried out with careful planning, skilled workmanship and high-quality materials to ensure lasting results.
+          Customer satisfaction and safety are always our top priorities. Our team works professionally and responsibly on every job, creating outdoor spaces that are both practical and visually appealing. From small upgrades to complete garden renovations, we are committed to delivering reliable service and results you can be proud of.
         </p>
       </section>
       
