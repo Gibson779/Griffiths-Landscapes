@@ -29,8 +29,8 @@ export default function Home(){
 
         <p className="about__paragraph"> 
            We take pride in delivering high-quality landscaping, patio and decking construction services for homeowners across Tameside. Every project we undertake is tailored to suit your needs, style, and budget. Our approach focuses on careful planning, skilled craftsmanship, and the use of durable materials that are built to last.
-From the initial consultation through to the final touches, our experienced team ensures a smooth and professional service. Whether we're designing a landscaped garden, installing a new patio or decking area, or completing general construction work to improve your outdoor space, we work with attention to detail and a commitment to quality.
-Every driveway, garden feature, and outdoor surface we create is designed to enhance your property while standing up to the UK's changing weather conditions. Whether you're looking for a full garden transformation, a new patio or decking area, or reliable seasonal maintenance, we approach every project with professionalism, care, and a genuine passion for helping you make the most of your outdoor space.
+           From the initial consultation through to the final touches, our experienced team ensures a smooth and professional service. Whether we're designing a landscaped garden, installing a new patio or decking area, or completing general construction work to improve your outdoor space, we work with attention to detail and a commitment to quality.
+           Every driveway, garden feature, and outdoor surface we create is designed to enhance your property while standing up to the UK's changing weather conditions. Whether you're looking for a full garden transformation, a new patio or decking area, or reliable seasonal maintenance, we approach every project with professionalism, care, and a genuine passion for helping you make the most of your outdoor space.
         </p>
         </div>
 
@@ -59,14 +59,9 @@ Every driveway, garden feature, and outdoor surface we create is designed to enh
 
     <div className="button__home">
         <Link to="/contact">
-        <button>Call us</button>
+        <button>Contact us</button>
         </Link>
-        <Link to="/contact">
-        <button>Email</button>
-        </Link>
-        <Link to="/contact">
-        <button>Free Quote</button>
-        </Link>
+       
     </div>
 
   </div>
