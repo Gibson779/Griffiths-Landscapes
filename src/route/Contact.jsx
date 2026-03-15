@@ -2,6 +2,9 @@ import React, { useState } from 'react';
 import emailjs from "@emailjs/browser";
 
 const Contact = () => {
+
+
+
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -103,6 +106,17 @@ emailjs
       <div className='contact-info' style={styles.contactInfo}>
         <p ><strong>Email:</strong> rhysgriffiths@gmail.com </p>
         <p><strong>Phone:</strong> 078584755493 </p>
+        <img 
+        src="./images/facebook.png" 
+        alt="facebook" 
+        className='facebook__image'
+         onClick={() => window.location.href='https://www.facebook.com/rhysgriffithslandscapes'} />
+        <img 
+        src="./images/instagram.png" 
+        alt="instagram" 
+        className='instagram__image' 
+        onClick={() => window.location.href='https://www.instagram.com/griffiths_buildinglandscapes?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=='} 
+        />
       </div>
     </div>
   );
@@ -115,7 +129,7 @@ const styles = {
     maxWidth: '600px',
     marginLeft: 'auto',
     marginRight: 'auto',
-    backgroundColor: '#f4e9d4ff;',
+    backgroundColor: 'rgb(255, 255, 255)',
     borderRadius: '8px',
     boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
 

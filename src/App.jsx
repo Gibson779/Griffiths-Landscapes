@@ -8,6 +8,7 @@ import Gallery from "./route/Gallery";
 import Reviews from "./route/Reviews";
 import Contact from "./route/Contact";
 import Home from "./route/Home";
+import ScrollToTop from "./component/ScrollToTop.jsx";
 
 
 
@@ -15,8 +16,9 @@ import Home from "./route/Home";
 function App() {
   return (
     <>
-    <div className="app"> 
+    
       <Navbar />
+       <ScrollToTop />  
       <main className='content'>
       <Routes>
       <Route path= "/" element= {<Home/>}/>
@@ -28,7 +30,7 @@ function App() {
       </main>
       <Footer/>
 
-      </div>
+     
     </>
   )
 }
