@@ -10,13 +10,9 @@ import Contact from "./route/Contact";
 import Home from "./route/Home";
 import ScrollToTop from "./component/ScrollToTop.jsx";
 
-
-
-
 function App() {
   return (
     <>
-    
       <Navbar />
        <ScrollToTop />  
       <main className='content'>
@@ -29,8 +25,6 @@ function App() {
       </Routes>
       </main>
       <Footer/>
-
-     
     </>
   )
 }
