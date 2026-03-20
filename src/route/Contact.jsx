@@ -104,8 +104,8 @@ emailjs
       </form>
 
       <div className='contact-info' style={styles.contactInfo}>
-        <p ><strong>Email:</strong> rhysgriffiths@gmail.com </p>
-        <p><strong>Phone:</strong> 078584755493 </p>
+        <p ><strong>Email:</strong> rhysgriff19991@outlook.com </p>
+        <p><strong>Phone:</strong> 07359303877</p>
         <img 
         src="./images/facebook.png" 
         alt="facebook" 

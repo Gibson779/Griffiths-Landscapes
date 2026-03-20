@@ -15,7 +15,7 @@ export default function Home(){
         We bring over a decade of experience to every job, offering high-quality finishes that improve the look and function of your home. 
        </p>
        <div className="home__call">
-        <h2 className="call">Call - 078586848338</h2>
+        <h2 className="call">Call - 07359303877</h2>
        </div>
        </div>
        </div>
