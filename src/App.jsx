@@ -9,6 +9,7 @@ import Reviews from "./route/Reviews";
 import Contact from "./route/Contact";
 import Home from "./route/Home";
 import ScrollToTop from "./component/ScrollToTop.jsx";
+import Privacy from "./route/Privacy.jsx";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Route path= "/contact" element={<Contact />} />
       <Route path= "/reviews" element={<Reviews />} />
       <Route path= "/gallery" element={<Gallery />} />
+      <Route path="/privacy" element={<Privacy />} />
       </Routes>
       </main>
       <Footer/>

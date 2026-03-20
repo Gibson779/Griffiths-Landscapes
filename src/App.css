@@ -372,6 +372,11 @@ ul li {
 }
 
 
+.privacy__link{
+  list-style: none;
+  color: #000000;
+}
+
 
 /* ==========================
    FOOTER BASE
@@ -699,4 +704,44 @@ ul li {
 .facebook__image:hover,
 .instagram__image:hover {
   transform: scale(1.1);
+}
+
+/* ----------------------------------
+   Privacy Policy
+---------------------------------- */
+
+.privacy__heading{
+  text-align: center;
+}
+
+.privacy__container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  line-height: 1.7;
+  color: #333;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.privacy__container p {
+  margin-bottom: 16px;
+  font-size: 1rem;
+  color: #444;
+}
+
+.privacy__container hr {
+  margin: 30px 0;
+  border: none;
+  border-top: 1px solid #eee;
+}
+
+
+@media (max-width: 600px) {
+  .privacy__container {
+    padding: 20px 15px;
+  }
+
+  .privacy__heading {
+    font-size: 1.8rem;
+  }
 }

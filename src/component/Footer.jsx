@@ -32,6 +32,7 @@ export default function Footer() {
         <Link to="/contact">
         <li>Contact</li>
         </Link>
+        
       </ul>
       </div>
 
@@ -58,6 +59,9 @@ export default function Footer() {
       <div className="footer__container">
         <p className="footer__copyright">
           © {new Date().getFullYear()} Griffiths Landscapes. All rights reserved.
+          <Link to="/privacy">
+        <li className="privacy__link"> Privacy Policy</li>
+        </Link>
         </p>
 
       </div>
