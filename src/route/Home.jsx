@@ -5,7 +5,7 @@ export default function Home(){
     return(
         <>
 
-      
+
     <div>
       <Helmet>
         <title>Griffiths Landscapes</title>
@@ -14,7 +14,7 @@ export default function Home(){
           content="Expert landscaping services in Glossop. Garden design, patios, turfing & maintenance. Transform your outdoor space—get a free quote today."
         />
       </Helmet>
-</div>
+   </div>
      
       <div className="home__container">
 
@@ -24,7 +24,7 @@ export default function Home(){
       <div className="home__text">
       <h1 className="home__title">LANDSCAPE AND GARDENING SERVICE</h1>
       <p>
-        Transform your outdoor space with trusted paving and landscaping solutions from a skilled local team in Tameside & local surrounding areas.
+        Transform your outdoor space with trusted paving and landscaping solutions from a skilled local team in Glossop & local surrounding areas.
         We bring over a decade of experience to every job, offering high-quality finishes that improve the look and function of your home. 
        </p>
        <div className="home__call">
