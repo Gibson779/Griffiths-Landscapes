@@ -1,7 +1,20 @@
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
+
 export default function Home(){
     return(
         <>
+
+      
+    <div>
+      <Helmet>
+        <title>Griffiths Landscapes</title>
+        <meta
+          name="description"
+          content="Expert landscaping services in Glossop. Garden design, patios, turfing & maintenance. Transform your outdoor space—get a free quote today."
+        />
+      </Helmet>
+</div>
      
       <div className="home__container">
 
