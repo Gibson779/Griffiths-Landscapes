@@ -115,7 +115,12 @@ emailjs
         src="./images/instagram.png" 
         alt="instagram" 
         className='instagram__image' 
-        onClick={() => window.location.href='https://www.instagram.com/griffiths_buildinglandscapes?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=='} 
+        onClick={() => window.location.href='https://www.instagram.com/griffiths_buildinglandscapes?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=='} />
+        <img 
+        src="./images/youtube.png" 
+        alt="youtube" 
+        className='youtube__image' 
+        onClick={() => window.location.href='https://www.youtube.com/@GriffithsLandscapes'} 
         />
       </div>
     </div>
