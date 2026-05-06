@@ -23,3 +23,16 @@ Category	Tools / Libraries
 Frontend	HTML, CSS, JS
 Deployment  Netlify
 Version Control	Git & GitHub GitHub Desktop
+
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 📬 Contact
+
+For questions or feedback, open an issue on GitHub.
+
+---

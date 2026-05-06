@@ -612,21 +612,7 @@ ul li {
   }
 }
 
-/* ----------------------------------
-   Contact Page
----------------------------------- */
 
-.contact__container{
-  display: flex;
-  align-items: center;
-  text-align: center;
-  flex-direction: column;
-}
-
-
-/* ----------------------------------
-   Contact Page
----------------------------------- */
 
 .service__items {
   display: grid;
@@ -686,6 +672,20 @@ ul li {
     
 
   }
+}
+
+
+/* ----------------------------------
+   Contact Page
+---------------------------------- */
+
+
+
+.contact__container{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
 }
 
 .facebook__image{
