@@ -28,21 +28,21 @@ const Contact = () => {
     
     
 
-    const serviceID = "service_u08coig";
-    const templateID = "template_kdmpxmp";
-    const publicKey = "1zxY_3xSUSZQAPoHh";
+    const serviceID = "";
+    const templateID = "";
+    const publicKey = "";
 
 emailjs
   .send(
-  "service_u08coig",
-  "template_kdmpxmp",
+  "",
+  "",
   {
     from_name: formData.name,
     from_email: formData.email,
     message: formData.message,
     reply_to: formData.email,
   },
-  "1zxY_3xSUSZQAPoHh"
+  ""
   )
   
   .then((result) => {
