@@ -8,22 +8,22 @@ const services = [
     title: "Garden Design",
     description:
       "Beautifully planned outdoor spaces designed around your home, lifestyle and budget.",
-    image: "../images/Home Image.jpg",
+    image: "./gallery/1.jpg", 
     alt: "Landscaped garden design",
   },
   {
     title: "Patios & Paving",
     description:
       "Create the perfect space for relaxing and entertaining with quality paving and patios.",
-    image: "../images/garden4.JPG",
+    image: "../images/Home Image.jpg",
     alt: "Garden patio and paving",
   },
   {
     title: "Turfing & Lawns",
     description:
       "Give your garden a fresh start with a beautiful new lawn and professional turf installation.",
-    image: "./gallery/1.jpg",
-    alt: "Garden landscaping and lawn",
+    image:  "../images/garden4.JPG",
+    alt: "Garden landscaping and lawn", 
   },
 ];
 
