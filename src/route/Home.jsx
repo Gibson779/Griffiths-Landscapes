@@ -271,7 +271,7 @@ export default function Home() {
         </section>
       </main>
         <a
-          href="https://wa.me/07359303877"
+          href="https://wa.me/+447359303877"
           className="whatsapp-float"
           target="_blank"
           rel="noopener noreferrer"
