@@ -10,24 +10,33 @@ import Home from "./route/Home";
 import ScrollToTop from "./component/ScrollToTop.jsx";
 import Privacy from "./route/Privacy.jsx";
 
+
 function App() {
   return (
-    <>
+    <div className="app-layout">
       <Navbar />
-       <ScrollToTop />  
-      <main className='content'>
-      <Routes>
-      <Route path= "/" element= {<Home/>}/>
-      <Route path= "/services" element={<Services />} />
-      <Route path= "/contact" element={<Contact />} />
-      <Route path= "/reviews" element={<Reviews />} />
-      <Route path= "/gallery" element={<Gallery />} />
-      <Route path="/privacy" element={<Privacy />} />
-      </Routes>
+
+      <ScrollToTop />
+
+      <main className="content">
+        <Routes>
+          <Route path="/" element={
+    <div className="home-page">
+      <Home />
+    </div>
+  } />
+          <Route path="/services" element={<Services />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/reviews" element={<Reviews />} />
+          <Route path="/gallery" element={<Gallery />} />
+          <Route path="/privacy" element={<Privacy />} />
+        </Routes>
       </main>
-      <Footer/>
-    </>
-  )
+
+      <Footer />
+    </div>
+  );
 }
+
 
 export default App
