@@ -61,7 +61,7 @@ export default function Home() {
               <br />
               <span>Our Craft.</span>
               <br />
-              A Space to Love.
+            
             </h1>
 
             <p className="hero__description">
